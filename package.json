@@ -5,8 +5,10 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "logs-android": "react-native log-android",
-    "logs-ios": "react-native log-ios",
+    "lint": "esw .",
+    "lint:watch": "yarn lint --watch",
+    "logs-android": "react-native logs-android",
+    "logs-ios": "react-native logs-ios",
     "test": "jest"
   },
   "dependencies": {
@@ -14,8 +16,16 @@
     "react-native": "0.56.0"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
     "babel-jest": "23.4.2",
     "babel-preset-react-native": "^5",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-watch": "^4.0.2",
     "jest": "23.5.0",
     "react-test-renderer": "16.4.1"
   },
