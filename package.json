@@ -9,7 +9,16 @@
     "lint:watch": "yarn lint --watch",
     "logs-android": "react-native logs-android",
     "logs-ios": "react-native logs-ios",
-    "test": "jest"
+    "test": "jest",
+    "prettier": "prettier --write \"**/*.js\""
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "dependencies": {
     "react": "16.4.1",
@@ -21,15 +30,14 @@
     "babel-preset-react-native": "^5",
     "eslint": "^5.4.0",
     "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-watch": "^4.0.2",
     "jest": "23.5.0",
+    "prettier": "^1.14.2",
     "react-test-renderer": "16.4.1"
-  },
-  "jest": {
-    "preset": "react-native"
   }
 }
