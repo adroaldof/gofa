@@ -7,8 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "esw .",
     "lint:watch": "yarn lint --watch",
-    "logs-android": "react-native logs-android",
-    "logs-ios": "react-native logs-ios",
+    "log-android": "react-native log-android",
+    "log-ios": "react-native log-ios",
     "test": "jest",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.js\""
@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "react": "16.4.1",
-    "react-native": "0.56.0"
+    "react-native": "0.56.0",
+    "react-native-fbsdk": "^0.7.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
