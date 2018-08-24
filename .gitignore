@@ -1,6 +1,7 @@
 # OSX
 #
 .DS_Store
+.env
 
 # Xcode
 #
@@ -21,6 +22,9 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
+ios/Frameworks
+!ios/Frameworks/README.md
+
 
 # Android/IntelliJ
 #
